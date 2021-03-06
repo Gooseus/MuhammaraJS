@@ -37,10 +37,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <sys/stat.h>
-
-#ifdef HAVE_UNISTD_H
-# include <unistd.h>
-#endif
+#include <unistd.h>
 
 #ifdef HAVE_FCNTL_H
 # include <fcntl.h>
